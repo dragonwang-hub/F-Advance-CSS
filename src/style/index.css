@@ -58,30 +58,30 @@ ul {
 }
 
 .main-content {
-  margin-left: 2%;
-  width: 96%;
+  margin-left: 4%;
+  width: 92%;
   display: flex;
 }
 
-.main-about-archive {
-  flex: 1;
+.aside-about-archive {
+  width: 15%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.main-about-archive h2 {
+.aside-about-archive h2 {
   font-style: oblique;
 }
 
 .main-about {
-  margin: 15px;
+  margin: 20px;
   background-color: #f0f0f0;
   padding: 15px;
 }
 
 .main-archive {
-  margin: 15px;
+  margin: 20px;
   padding: 15px;
 }
 
@@ -91,7 +91,7 @@ ul {
 }
 
 .main-article {
-  flex: 4;
+  width: 70%;
   position: relative;
 }
 
@@ -130,12 +130,11 @@ ul {
   margin: 20px 0;
 }
 
-.main-sign-in {
-  flex: 1;
+.aside-sign-in {
+  width: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .form-sign-in {
