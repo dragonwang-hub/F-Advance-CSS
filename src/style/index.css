@@ -1,17 +1,18 @@
-/*header,*/
-/*main,*/
-/*footer {*/
-/*  border: 2px solid red;*/
-/*}*/
+header,
+main,
+footer {
+  border: 2px solid red;
+}
 
-/*section,*/
-/*p,*/
-/*nav,*/
-/*li,*/
-/*form,*/
-/*article {*/
-/*  border: 1px solid green;*/
-/*}*/
+section,
+p,
+nav,
+li,
+form,
+article,
+aside {
+  border: 1px solid green;
+}
 
 body,
 html {
@@ -74,15 +75,13 @@ ul {
   font-style: oblique;
 }
 
-.main-about {
+.aside-left {
   margin: 20px;
-  background-color: #f0f0f0;
   padding: 15px;
+  width: calc(100% - 40px);
 }
-
-.main-archive {
-  margin: 20px;
-  padding: 15px;
+.main-about {
+  background-color: #f0f0f0;
 }
 
 .main-archive a {
@@ -128,9 +127,9 @@ ul {
 
 .form-sign-in {
   background-color: #f0f0f0;
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
-  margin: 10px;
+  width: 95%;
 }
 
 .form-input {
